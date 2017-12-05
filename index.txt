@@ -85,10 +85,16 @@
     
     <div class="background-wrap">
       
-      <video id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted">
+      <video id="video-bg-elem" preload="auto" autoplay="true" loop="loop">
         <source src="video.mp4" type="video/mp4">
         Video not supported
       </video>
+      
+      
+      <script>
+        var video = document.getElementById("video-bg-elem");
+        video.volume = 0.05;
+      </script>
       
       
     <!--
