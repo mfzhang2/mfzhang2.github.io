@@ -89,6 +89,9 @@
       <video controls autoplay id="video-bg-elem" preload="auto" loop="loop">
         <source src="video.mp4" type="video/mp4">
         Video not supported
+        <!--
+        Video is from https://www.youtube.com/watch?v=zLSe7RxtJ4o
+        -->
       </video>
       
       <script>
